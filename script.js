@@ -1,7 +1,7 @@
 const sampleData = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June'],
     datasets: [{
-      label: 'CASTALLA SHEET',
+      label: 'CAGAS SHEET',
       data: [100, 59, 80, 81, 56, 55, 68, 23, 10, 100, 60, 90],
       backgroundColor: 'rgba(145, 222, 255)',
       borderColor: 'rgba(63, 188, 242)',
