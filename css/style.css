@@ -134,8 +134,6 @@
 .sidebar .navbar .navbar-nav .nav-link:hover,
 .sidebar .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
-    background: #a5038a;
-    border-color: var(--primary);
 }
 
 .sidebar .navbar .navbar-nav .nav-link i {
