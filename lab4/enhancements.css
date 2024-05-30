@@ -1,0 +1,102 @@
+:root {
+ --main-color: lightyellow;
+ padding: 30px;
+ margin: 50px;
+}
+
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ flex-direction: column;
+}
+
+.hover-button {
+ padding: 10px 20px;
+ border: none;
+ background-color: #820ab1;
+ color: #3514ac;
+ transition: background-color 0.10s ease;
+}
+
+.hover-button:hover {
+ background-color: rgb(126, 6, 120);
+}
+
+.animation-box-1 {
+ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 20px;
+ animation: box-move 4s infinite alternate;
+ align-font: center;
+}
+
+
+:root {
+ --main-color: rgb(175, 45, 158);
+   padding: 100px;
+}
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ flex-direction: column;
+}
+.hover-button {
+ padding: 10px 20px;
+ border: none;
+ background-color: #8d1e2f;
+ color: #58880b;
+ transition: background-color 0.10s ease;
+}
+
+.hover-button:hover {
+ background-color: lightred;
+}
+.animation-box {
+ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+ animation: box-move 4s infinite alternate;
+ }
+
+.box3{ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+}
+
+.animation-box1 {
+ width: 200px;
+ height: 200px;
+ background-color: var(--main-color);
+ margin-top: 50px;
+ animation: box-move1 5s infinite linear;
+}
+
+
+@keyframes box-move1 {
+
+ from {background-color: rgb(143, 13, 33);
+transform: rotate(0deg);
+ }
+ to {background-color: lightyellow;
+ transform: rotate(-360deg);
+ }
+}
+
+
+
+@keyframes box-move {
+
+ from {background-color: lightblue;
+transform: rotate(0deg);
+ }
+ to {background-color: lightyellow;
+ transform: rotate(360deg);
+ }
+}
